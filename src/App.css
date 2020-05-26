@@ -8,14 +8,33 @@
 
 .countryBorder{
  border: 6px rgb(53, 240, 53) solid;
+ display: flex;
+ justify-content: center;
+ padding-top: 1%;
+ padding-bottom: 1%;
+ width: 50%;
+ margin-left:auto;
+ margin-right: auto;
 }
-
+.bodyTable{
+  display: flex;
+  justify-content: space-between;
+}
 .scoreClass{
-  border: 1px solid black;
+ border: 1px solid black;
+ width:600px;
 }
-.myDiv{
-  margin-left: auto;
-  margin-right: auto;
+.myName{
+  font-size: x-large;
+  color: blue;
+  padding-top:2%;
+  padding-bottom: 2%;
+}
+.myScore{
+  color: red;
+  font-size:x-large;
+  padding-top:2%;
+  padding-bottom: 2%;
 }
 .App-logo {
   height: 40vmin;

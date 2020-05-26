@@ -5,9 +5,9 @@ import {Table} from 'reactstrap';
 const HighScore = (props) => {
     console.log(props.CountryScores);
     return(
-    <div className="d-flex ">
+    <div>
     {props.CountryScores.map((eachCountry,index) =>
-    <Table  className="countryBorder" bordered key={index}>
+    <Table className="countryBorder" bordered key={index}>
         <tbody>
         <tr> 
         <td>
@@ -17,11 +17,13 @@ const HighScore = (props) => {
         <tr className="ml-3" >
         <td>
             {eachCountry.scores.map((element,i) => 
-            <Table bordered className="border border-secondary" key={i}>
-            <tbody  className="scoreClass">
+            <Table bordered className="scoreClass" key={i}>
+            <tbody className="bodyTable">
             <tr> 
-                <td>{element.n}</td>
-                <td>{element.s}</td>
+                <td className="myName">{element.n}</td>
+            </tr>
+            <tr>    
+                <td className="myScore">{element.s}</td>
             </tr>
             </tbody>
                 </Table>
