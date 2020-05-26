@@ -1,23 +1,29 @@
 body{
-  background-image: url("https://pa1.narvii.com/7281/b18c595392482be4198598fbb1c2c25ff639c288r1-499-500_hq.gif");
-  background-size:cover;
+  background-image: url("https://i.imgur.com/NgKLh9c.gif");
+  background-size: 400px;
+  background-repeat: repeat-y;
+  background-position: left;
 }
 html{
   height: 100%;
+  background-image: url("https://i.imgur.com/NgKLh9c.gif");
+  background-size: 400px;
+  background-repeat: repeat-y;
+  background-position: right;
 }
 .App {
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   border: 10px solid rgb(88, 76, 246);
   font-size: 10px;
-  color: rgb(14, 206, 212);
+  color: rgb(91, 127, 218);
 }
 .countryName{
-  color: rgb(240, 15, 191);
+  color: rgb(204, 24, 24);
 }
 
 .countryBorder{
- border: 6px rgb(13, 105, 226) solid;
+ border: 6px rgb(49, 226, 13) solid;
  display: flex;
  justify-content: center;
  padding-top: 1%;
@@ -35,15 +41,16 @@ html{
 .scoreClass{
  border: 2px solid black;
  width:600px;
+ margin-bottom: 1px;
 }
 .myName{
   font-size: x-large;
-  color: rgb(172, 8, 133);
+  color: rgb(78, 40, 18);
   padding-top:2%;
   padding-bottom: 2%;
 }
 .myScore{
-  color: rgb(49, 171, 12);
+  color: rgb(171, 25, 12);
   font-size:x-large;
   padding-top:2%;
   padding-bottom: 2%;
