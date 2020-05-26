@@ -1,17 +1,16 @@
 import React from 'react';
 import {Table} from 'reactstrap';
 
-
 const HighScore = (props) => {
-    console.log(props.CountryScores);
     return(
+   
     <div>
-    {props.CountryScores.map((eachCountry,index) =>
+    { props.CountryScores.sort((a, b) => (a.name > b.name) ? 1 : -1).map((eachCountry,index) =>
     <Table className="countryBorder" bordered key={index}>
         <tbody>
         <tr> 
         <td>
-            <h1><span>High Scores:</span><span>{`${ eachCountry.name}`}</span></h1>
+            <h1><span>High Scores:</span><span>{eachCountry.name}</span></h1>
         </td>
         </tr>
         <tr className="ml-3" >
@@ -33,9 +32,10 @@ const HighScore = (props) => {
             </tr>
         </tbody>
         </Table>
-    )}
-    </div>
     )
+}  
+</div>
+)
 }
 
 export default HighScore;
