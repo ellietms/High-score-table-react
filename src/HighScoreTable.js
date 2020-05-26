@@ -9,7 +9,7 @@ const HighScore = (props) => {
         <tbody>
         <tr> 
         <td>
-            <h1><span>High Scores:</span><span>{eachCountry.name}</span></h1>
+            <h1><span>High Scores:</span><span className="countryName">{eachCountry.name}</span></h1>
         </td>
         </tr>
         <tr className="ml-3" >
