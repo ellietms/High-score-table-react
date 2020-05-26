@@ -3,7 +3,6 @@ import {Table} from 'reactstrap';
 
 const HighScore = (props) => {
     return(
-   
     <div>
     { props.CountryScores.sort((a, b) => (a.name > b.name) ? 1 : -1).map((eachCountry,index) =>
     <Table className="countryBorder" bordered key={index}>
@@ -15,11 +14,11 @@ const HighScore = (props) => {
         </tr>
         <tr className="ml-3" >
         <td>
-            {eachCountry.scores.map((element,i) => 
+            {eachCountry.scores.sort((a, b) => (a.s > b.s) ? -1 : 1).map((element,i) => 
             <Table bordered className="scoreClass" key={i}>
             <tbody className="bodyTable">
             <tr> 
-                <td className="myName">{element.n}</td>
+                <td className="myName">{element.n.toUpperCase()}</td>
             </tr>
             <tr>    
                 <td className="myScore">{element.s}</td>
