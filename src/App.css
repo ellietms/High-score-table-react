@@ -24,7 +24,9 @@ html{
 .countryName{
   color: rgb(204, 24, 24);
 }
-
+.score{
+  display: flex;
+}
 .countryBorder{
  border: 6px rgb(49, 226, 13) solid;
  display: flex;
