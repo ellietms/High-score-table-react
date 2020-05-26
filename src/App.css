@@ -1,5 +1,5 @@
 body{
-  background-image: url("https://www.langustefonts.com/images/lcd/1to9_aaaa.gif");
+  background-image: url("https://pa1.narvii.com/7281/b18c595392482be4198598fbb1c2c25ff639c288r1-499-500_hq.gif");
   background-size:cover;
 }
 html{
@@ -8,13 +8,13 @@ html{
 .App {
   text-align: center;
   font-family: 'Press Start 2P', cursive;
-  border: 1px solid rgb(194, 26, 68);
+  border: 10px solid rgb(88, 76, 246);
   font-size: 10px;
-  color: rgb(98, 209, 246);
+  color: rgb(20, 204, 20);
 }
 
 .countryBorder{
- border: 6px rgb(53, 240, 53) solid;
+ border: 6px rgb(13, 105, 226) solid;
  display: flex;
  justify-content: center;
  padding-top: 1%;
@@ -22,18 +22,20 @@ html{
  width: 50%;
  margin-left:auto;
  margin-right: auto;
+ margin-bottom: 10px;
+ margin-top: 10px;
 }
 .bodyTable{
   display: flex;
   justify-content: space-between;
 }
 .scoreClass{
- border: 1px solid black;
+ border: 2px solid black;
  width:600px;
 }
 .myName{
   font-size: x-large;
-  color: rgb(18, 149, 13);
+  color: rgb(182, 35, 201);
   padding-top:2%;
   padding-bottom: 2%;
 }
