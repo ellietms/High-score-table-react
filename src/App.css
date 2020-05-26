@@ -1,7 +1,22 @@
 .App {
   text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  border: 1px solid blue;
+  font-size: 10px;
+  color: rgb(141, 205, 226);
 }
 
+.countryBorder{
+ border: 6px rgb(53, 240, 53) solid;
+}
+
+.scoreClass{
+  border: 1px solid black;
+}
+.myDiv{
+  margin-left: auto;
+  margin-right: auto;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
