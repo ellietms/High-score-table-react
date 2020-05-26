@@ -5,8 +5,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>High Scores Per Country</h1>
+    <div>
       <HighScoreTable CountryScores = {AllScores}/>
     </div>
   );
