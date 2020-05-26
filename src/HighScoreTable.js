@@ -3,11 +3,11 @@ import {Table} from 'reactstrap';
 
 const HighScore = (props) => {
     return(
-    <div className="App">
+    <div className="App col-12">
         <h1>High Scores Per Country </h1>
     { props.CountryScores.sort((a, b) => (a.name > b.name) ? 1 : -1).map((eachCountry,index) =>
     <Table className="countryBorder" bordered key={index}>
-        <tbody>
+        <tbody className="tableBody col-2 col-lg-12">
         <tr> 
         <td>
             <h1 className="score"><span>High Scores:</span><span className="countryName">{eachCountry.name}</span></h1>
