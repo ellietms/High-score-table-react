@@ -4,6 +4,7 @@ import {Table} from 'reactstrap';
 const HighScore = (props) => {
     return(
     <div className="App">
+        <h1>High Scores Per Country </h1>
     { props.CountryScores.sort((a, b) => (a.name > b.name) ? 1 : -1).map((eachCountry,index) =>
     <Table className="countryBorder" bordered key={index}>
         <tbody>
