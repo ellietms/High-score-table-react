@@ -2,6 +2,9 @@ body{
   background-image: url("https://www.langustefonts.com/images/lcd/1to9_aaaa.gif");
   background-size:cover;
 }
+html{
+  height: 100%;
+}
 .App {
   text-align: center;
   font-family: 'Press Start 2P', cursive;
