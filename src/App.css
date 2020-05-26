@@ -23,6 +23,7 @@ html{
 }
 .countryName{
   color: rgb(204, 24, 24);
+  font-size: 16px;
 }
 .score{
   display: flex;
