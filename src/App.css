@@ -1,5 +1,5 @@
 body{
-  background-image: url("https://i.makeagif.com/media/3-01-2016/pKB5Jk.gif");
+  background-image: url("https://www.langustefonts.com/images/lcd/1to9_aaaa.gif");
   background-size:cover;
 }
 .App {
@@ -30,7 +30,7 @@ body{
 }
 .myName{
   font-size: x-large;
-  color: white;
+  color: rgb(18, 149, 13);
   padding-top:2%;
   padding-bottom: 2%;
 }
