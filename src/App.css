@@ -134,9 +134,10 @@ html{
      font-size: 8px;
    }
    .countryBorder{
-     width: 100%;
-     margin-right: 2px;
-     margin-left: 2px;
+     width: 80%;
+     margin-right: auto;
+     margin-left: auto;
+     border: 6px rgb(2, 155, 35) solid;
    }
    .myName{
      font-size: 8px;
@@ -165,5 +166,8 @@ html{
    .small-table{
     display: flex;
     flex-direction: column;
+   }
+   .App{
+     border:10px solid blue;
    }
 }
