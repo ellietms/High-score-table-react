@@ -47,7 +47,11 @@ html{
 .scoreClass{
  border: 2px solid black;
  width:400px;
+ margin-left: auto;
+ margin-right: auto;
  margin-bottom: 1px;
+ padding-left: auto;
+ padding-right: auto;
 }
 .myName{
   font-size: 20px;
@@ -64,6 +68,22 @@ html{
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  padding-left:30px;
+  padding-right: auto;
+  text-align: center;
+}
+.small-table{
+  justify-content: center;
+  display: inherit;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -96,22 +116,53 @@ html{
   }
 }
 
-@media only screen and (max-width : 767px){
-  .countryBorder{
-    width: 100%;
-  }
-  .scoreClass{
-    width:60%;
-    margin-bottom: 1px;
-   }
-   .tableBody{
-     width: 100%;
-   }
-   .bodyTable{
-     width: 95%;
-   }
+@media only screen and (max-width : 1000px){
    body{
      background-color: white;
      background-image: none;
+   }
+   html{
+     height: 100%;
+     background-image: none;
+   }
+   .score{
+     display: inline-flex;
+     font-size: 5px;
+   }
+   .countryName{
+     font-size: 8px;
+   }
+   .countryBorder{
+     width: 100%;
+     margin-right: 2px;
+     margin-left: 2px;
+   }
+   .myName{
+     font-size: 8px;
+   }
+   .myScore{
+     font-size: 8px;
+   }
+   .scoreClass{
+     width: 200px;
+     display: inline-table;
+     justify-content: center;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   h1{
+     display: inline-flex;
+     font-size: smaller;
+   }
+   .header{
+     font-size: 8px;
+   }
+   .container{
+    display: flex;
+    flex-direction: column;
+   }
+   .small-table{
+    display: flex;
+    flex-direction: column;
    }
 }
