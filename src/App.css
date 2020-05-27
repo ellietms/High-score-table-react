@@ -27,6 +27,7 @@ html{
 }
 .score{
   display: flex;
+  justify-content: center;
 }
 .countryBorder{
  border: 6px rgb(49, 226, 13) solid;
