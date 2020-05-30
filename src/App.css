@@ -171,3 +171,9 @@ html{
      border:10px solid blue;
    }
 }
+
+@media(max-width:800px){
+  .scoreClass{
+    width:150px;
+  }
+}
