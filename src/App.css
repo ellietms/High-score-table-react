@@ -87,6 +87,20 @@ html{
   display: inherit;
 }
 
+.Asending {
+  padding: 10px 10px;
+  margin-top: 5px;
+  border: 1px solid red;
+  background-color: red;
+}
+.Desending{
+  padding: 10px 10px;
+  margin-top: 5px;
+  color: white;
+  border: 1px solid blue;
+  background-color: rgb(19, 27, 134);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -106,15 +120,6 @@ html{
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @media only screen and (max-width : 1200px){
@@ -152,10 +157,10 @@ html{
      margin-left: auto;
      margin-right: auto;
    }
-   h1{
+   /* h1{
      display: inline-flex;
      font-size: smaller;
-   }
+   } */
    .header{
      font-size: 8px;
    }

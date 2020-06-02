@@ -1,13 +1,15 @@
 import React from 'react';
 import {Table} from 'reactstrap';
 
+
 const Page = (props) => {
 return( 
     <div className="App col-12">
-    <button onClick={props.handleAsending} type="button" class="btn btn-primary">
-     {props.status ? `Asending` : `Desending`}
-    </button>  
+     <div className="d-flex ">   
+    <button onClick={props.handleAsending} className={props.status ? "Asending" : "Desending"} type="button">
+     {props.status ? `Click for Asending` : `Click for Desending`}  </button>  
     <h1>High Scores Per Country </h1>
+    </div> 
     {props.data.CountryScores.sort((a, b) => (a.name > b.name) ? 1 : -1).map((eachCountry,index) =>
     <Table className="countryBorder" bordered key={index}>
         <tbody className="container">
