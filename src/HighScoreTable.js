@@ -6,7 +6,7 @@ const HighScore = (props) => {
         setAsending(!Asending);
     } 
     return(
-   <Page onClick={handleAsending} data={props} />
+   <Page handleAsending={handleAsending} status={Asending} data={props} />
 )
 }
 
