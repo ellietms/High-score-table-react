@@ -5,7 +5,10 @@ import {Table} from 'reactstrap';
 const Page = (props) => {
 return( 
     <div className="App col-12">
-     <div className="d-flex ">   
+     <div className="d-flex ">  
+     <span className="status">
+     status<i className={props.status ? "fas fa-arrow-down" : "fas fa-arrow-up"}></i> 
+     </span>
     <button onClick={props.handleAsending} className={props.status ? "Asending" : "Desending"} type="button">
      {props.status ? `Click for Asending` : `Click for Desending`}  </button>  
     <h1>High Scores Per Country </h1>

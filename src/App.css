@@ -89,23 +89,27 @@ html{
 
 .Asending {
   padding: 10px 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   border: 1px solid red;
   background-color: red;
+  cursor: pointer;
 }
 .Desending{
   padding: 10px 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   color: white;
   border: 1px solid blue;
   background-color: rgb(19, 27, 134);
+  cursor: pointer;
+}
+.status {
+  font-size: 20px;
+  margin-right: 10px;
+  color: black;
+  background-color: green;
+  padding: 2px 12px 10px 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -157,10 +161,7 @@ html{
      margin-left: auto;
      margin-right: auto;
    }
-   /* h1{
-     display: inline-flex;
-     font-size: smaller;
-   } */
+   
    .header{
      font-size: 8px;
    }
